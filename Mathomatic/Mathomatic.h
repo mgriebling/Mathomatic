@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double MathomaticVersionNumber;
 FOUNDATION_EXPORT const unsigned char MathomaticVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Mathomatic/PublicHeader.h>
-
+#import <Mathomatic/Matho.h>
 

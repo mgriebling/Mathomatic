@@ -10,6 +10,35 @@
 		2FE1DD571AD577D2005D48B9 /* Mathomatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD561AD577D2005D48B9 /* Mathomatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FE1DD5D1AD577D3005D48B9 /* Mathomatic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE1DD511AD577D2005D48B9 /* Mathomatic.framework */; };
 		2FE1DD641AD577D3005D48B9 /* MathomaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD631AD577D3005D48B9 /* MathomaticTests.m */; };
+		2FE1DD891AD57817005D48B9 /* includes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD6D1AD57817005D48B9 /* includes.h */; };
+		2FE1DD8A1AD57817005D48B9 /* altproto.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD6E1AD57817005D48B9 /* altproto.h */; };
+		2FE1DD8B1AD57817005D48B9 /* am.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD6F1AD57817005D48B9 /* am.mm */; };
+		2FE1DD8C1AD57817005D48B9 /* am.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD701AD57817005D48B9 /* am.h */; };
+		2FE1DD8D1AD57817005D48B9 /* blt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD711AD57817005D48B9 /* blt.h */; };
+		2FE1DD8E1AD57817005D48B9 /* cmds.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD721AD57817005D48B9 /* cmds.mm */; };
+		2FE1DD8F1AD57817005D48B9 /* complex_lib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD731AD57817005D48B9 /* complex_lib.mm */; };
+		2FE1DD901AD57817005D48B9 /* complex.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD741AD57817005D48B9 /* complex.mm */; };
+		2FE1DD911AD57817005D48B9 /* complex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD751AD57817005D48B9 /* complex.h */; };
+		2FE1DD921AD57817005D48B9 /* diff.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD761AD57817005D48B9 /* diff.mm */; };
+		2FE1DD931AD57817005D48B9 /* externs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD771AD57817005D48B9 /* externs.h */; };
+		2FE1DD941AD57817005D48B9 /* factor_int.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD781AD57817005D48B9 /* factor_int.mm */; };
+		2FE1DD951AD57817005D48B9 /* factor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD791AD57817005D48B9 /* factor.mm */; };
+		2FE1DD961AD57817005D48B9 /* gcd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD7A1AD57817005D48B9 /* gcd.mm */; };
+		2FE1DD971AD57817005D48B9 /* globals.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD7B1AD57817005D48B9 /* globals.mm */; };
+		2FE1DD981AD57817005D48B9 /* help.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD7C1AD57817005D48B9 /* help.mm */; };
+		2FE1DD991AD57817005D48B9 /* integrate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD7D1AD57817005D48B9 /* integrate.mm */; };
+		2FE1DD9A1AD57817005D48B9 /* license.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD7E1AD57817005D48B9 /* license.h */; };
+		2FE1DD9B1AD57817005D48B9 /* list.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD7F1AD57817005D48B9 /* list.mm */; };
+		2FE1DD9C1AD57817005D48B9 /* parse.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD801AD57817005D48B9 /* parse.mm */; };
+		2FE1DD9D1AD57817005D48B9 /* poly.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD811AD57817005D48B9 /* poly.mm */; };
+		2FE1DD9E1AD57817005D48B9 /* proto.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD821AD57817005D48B9 /* proto.h */; };
+		2FE1DD9F1AD57817005D48B9 /* simplify.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD831AD57817005D48B9 /* simplify.mm */; };
+		2FE1DDA01AD57817005D48B9 /* solve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD841AD57817005D48B9 /* solve.mm */; };
+		2FE1DDA11AD57817005D48B9 /* standard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DD851AD57817005D48B9 /* standard.h */; };
+		2FE1DDA21AD57817005D48B9 /* super.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD861AD57817005D48B9 /* super.mm */; };
+		2FE1DDA31AD57817005D48B9 /* unfactor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD871AD57817005D48B9 /* unfactor.mm */; };
+		2FE1DDA41AD57817005D48B9 /* Matho.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DD881AD57817005D48B9 /* Matho.mm */; };
+		2FE1DDA71AD57853005D48B9 /* Matho.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1DDA61AD57853005D48B9 /* Matho.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +58,35 @@
 		2FE1DD5C1AD577D3005D48B9 /* MathomaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathomaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE1DD621AD577D3005D48B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE1DD631AD577D3005D48B9 /* MathomaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathomaticTests.m; sourceTree = "<group>"; };
+		2FE1DD6D1AD57817005D48B9 /* includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = includes.h; sourceTree = "<group>"; };
+		2FE1DD6E1AD57817005D48B9 /* altproto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = altproto.h; sourceTree = "<group>"; };
+		2FE1DD6F1AD57817005D48B9 /* am.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = am.mm; sourceTree = "<group>"; };
+		2FE1DD701AD57817005D48B9 /* am.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = am.h; sourceTree = "<group>"; };
+		2FE1DD711AD57817005D48B9 /* blt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blt.h; sourceTree = "<group>"; };
+		2FE1DD721AD57817005D48B9 /* cmds.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cmds.mm; sourceTree = "<group>"; };
+		2FE1DD731AD57817005D48B9 /* complex_lib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = complex_lib.mm; sourceTree = "<group>"; };
+		2FE1DD741AD57817005D48B9 /* complex.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = complex.mm; sourceTree = "<group>"; };
+		2FE1DD751AD57817005D48B9 /* complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
+		2FE1DD761AD57817005D48B9 /* diff.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = diff.mm; sourceTree = "<group>"; };
+		2FE1DD771AD57817005D48B9 /* externs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = externs.h; sourceTree = "<group>"; };
+		2FE1DD781AD57817005D48B9 /* factor_int.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = factor_int.mm; sourceTree = "<group>"; };
+		2FE1DD791AD57817005D48B9 /* factor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = factor.mm; sourceTree = "<group>"; };
+		2FE1DD7A1AD57817005D48B9 /* gcd.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = gcd.mm; sourceTree = "<group>"; };
+		2FE1DD7B1AD57817005D48B9 /* globals.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = globals.mm; sourceTree = "<group>"; };
+		2FE1DD7C1AD57817005D48B9 /* help.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = help.mm; sourceTree = "<group>"; };
+		2FE1DD7D1AD57817005D48B9 /* integrate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = integrate.mm; sourceTree = "<group>"; };
+		2FE1DD7E1AD57817005D48B9 /* license.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = license.h; sourceTree = "<group>"; };
+		2FE1DD7F1AD57817005D48B9 /* list.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = list.mm; sourceTree = "<group>"; };
+		2FE1DD801AD57817005D48B9 /* parse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = parse.mm; sourceTree = "<group>"; };
+		2FE1DD811AD57817005D48B9 /* poly.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = poly.mm; sourceTree = "<group>"; };
+		2FE1DD821AD57817005D48B9 /* proto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proto.h; sourceTree = "<group>"; };
+		2FE1DD831AD57817005D48B9 /* simplify.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = simplify.mm; sourceTree = "<group>"; };
+		2FE1DD841AD57817005D48B9 /* solve.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = solve.mm; sourceTree = "<group>"; };
+		2FE1DD851AD57817005D48B9 /* standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = standard.h; sourceTree = "<group>"; };
+		2FE1DD861AD57817005D48B9 /* super.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = super.mm; sourceTree = "<group>"; };
+		2FE1DD871AD57817005D48B9 /* unfactor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = unfactor.mm; sourceTree = "<group>"; };
+		2FE1DD881AD57817005D48B9 /* Matho.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Matho.mm; sourceTree = "<group>"; };
+		2FE1DDA61AD57853005D48B9 /* Matho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matho.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				2FE1DD561AD577D2005D48B9 /* Mathomatic.h */,
+				2FE1DDA51AD5781F005D48B9 /* Mathomatic */,
 				2FE1DD541AD577D2005D48B9 /* Supporting Files */,
 			);
 			path = Mathomatic;
@@ -102,6 +161,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2FE1DDA51AD5781F005D48B9 /* Mathomatic */ = {
+			isa = PBXGroup;
+			children = (
+				2FE1DD6D1AD57817005D48B9 /* includes.h */,
+				2FE1DD6E1AD57817005D48B9 /* altproto.h */,
+				2FE1DD6F1AD57817005D48B9 /* am.mm */,
+				2FE1DD701AD57817005D48B9 /* am.h */,
+				2FE1DD711AD57817005D48B9 /* blt.h */,
+				2FE1DD721AD57817005D48B9 /* cmds.mm */,
+				2FE1DD731AD57817005D48B9 /* complex_lib.mm */,
+				2FE1DD741AD57817005D48B9 /* complex.mm */,
+				2FE1DD751AD57817005D48B9 /* complex.h */,
+				2FE1DD761AD57817005D48B9 /* diff.mm */,
+				2FE1DD771AD57817005D48B9 /* externs.h */,
+				2FE1DD781AD57817005D48B9 /* factor_int.mm */,
+				2FE1DD791AD57817005D48B9 /* factor.mm */,
+				2FE1DD7A1AD57817005D48B9 /* gcd.mm */,
+				2FE1DD7B1AD57817005D48B9 /* globals.mm */,
+				2FE1DD7C1AD57817005D48B9 /* help.mm */,
+				2FE1DD7D1AD57817005D48B9 /* integrate.mm */,
+				2FE1DD7E1AD57817005D48B9 /* license.h */,
+				2FE1DD7F1AD57817005D48B9 /* list.mm */,
+				2FE1DD801AD57817005D48B9 /* parse.mm */,
+				2FE1DD811AD57817005D48B9 /* poly.mm */,
+				2FE1DD821AD57817005D48B9 /* proto.h */,
+				2FE1DD831AD57817005D48B9 /* simplify.mm */,
+				2FE1DD841AD57817005D48B9 /* solve.mm */,
+				2FE1DD851AD57817005D48B9 /* standard.h */,
+				2FE1DD861AD57817005D48B9 /* super.mm */,
+				2FE1DD871AD57817005D48B9 /* unfactor.mm */,
+				2FE1DDA61AD57853005D48B9 /* Matho.h */,
+				2FE1DD881AD57817005D48B9 /* Matho.mm */,
+			);
+			name = Mathomatic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +204,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE1DD9E1AD57817005D48B9 /* proto.h in Headers */,
+				2FE1DDA71AD57853005D48B9 /* Matho.h in Headers */,
+				2FE1DD8C1AD57817005D48B9 /* am.h in Headers */,
+				2FE1DD8D1AD57817005D48B9 /* blt.h in Headers */,
+				2FE1DD9A1AD57817005D48B9 /* license.h in Headers */,
+				2FE1DD931AD57817005D48B9 /* externs.h in Headers */,
+				2FE1DD8A1AD57817005D48B9 /* altproto.h in Headers */,
+				2FE1DD911AD57817005D48B9 /* complex.h in Headers */,
 				2FE1DD571AD577D2005D48B9 /* Mathomatic.h in Headers */,
+				2FE1DD891AD57817005D48B9 /* includes.h in Headers */,
+				2FE1DDA11AD57817005D48B9 /* standard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +229,7 @@
 				2FE1DD4D1AD577D2005D48B9 /* Frameworks */,
 				2FE1DD4E1AD577D2005D48B9 /* Headers */,
 				2FE1DD4F1AD577D2005D48B9 /* Resources */,
+				2FE1DDA81AD57970005D48B9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -204,11 +310,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FE1DDA81AD57970005D48B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nDEVICE_BIN=\"${OBJROOT}/UninstalledProducts/${TARGET_NAME}.framework\"\nSIMULATOR_BIN=\"${SYMROOT}/../../../../Products/Debug-iphonesimulator/${TARGET_NAME}.framework\"\n\nARCHIVE_PATH=\"${SRCROOT}/_Archive\"\nrm -rf \"${ARCHIVE_PATH}\"\nmkdir \"${ARCHIVE_PATH}\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n\nif [ -d \"${DEVICE_BIN}\" ]; then\nDEVICE_PATH=\"${ARCHIVE_PATH}/Release\"\nmkdir \"${DEVICE_PATH}\"\ncp -r \"${DEVICE_BIN}\" \"${DEVICE_PATH}\"\n\nif [ -d \"${SIMULATOR_BIN}\" ]; then\nSIMULATOR_PATH=\"${ARCHIVE_PATH}/Debug\"\nmkdir \"${SIMULATOR_PATH}\"\ncp -r \"${DEVICE_BIN}\" \"${SIMULATOR_PATH}\"\nlipo -create \"${DEVICE_BIN}/${TARGET_NAME}\" \"${SIMULATOR_BIN}/${TARGET_NAME}\" -output \"${SIMULATOR_PATH}/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\nfi\nfi\nfi\nexit 0;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FE1DD4C1AD577D2005D48B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE1DDA21AD57817005D48B9 /* super.mm in Sources */,
+				2FE1DD941AD57817005D48B9 /* factor_int.mm in Sources */,
+				2FE1DD8E1AD57817005D48B9 /* cmds.mm in Sources */,
+				2FE1DD981AD57817005D48B9 /* help.mm in Sources */,
+				2FE1DD9B1AD57817005D48B9 /* list.mm in Sources */,
+				2FE1DD921AD57817005D48B9 /* diff.mm in Sources */,
+				2FE1DD8F1AD57817005D48B9 /* complex_lib.mm in Sources */,
+				2FE1DD971AD57817005D48B9 /* globals.mm in Sources */,
+				2FE1DD9C1AD57817005D48B9 /* parse.mm in Sources */,
+				2FE1DDA31AD57817005D48B9 /* unfactor.mm in Sources */,
+				2FE1DD961AD57817005D48B9 /* gcd.mm in Sources */,
+				2FE1DDA01AD57817005D48B9 /* solve.mm in Sources */,
+				2FE1DD901AD57817005D48B9 /* complex.mm in Sources */,
+				2FE1DD991AD57817005D48B9 /* integrate.mm in Sources */,
+				2FE1DD9F1AD57817005D48B9 /* simplify.mm in Sources */,
+				2FE1DD9D1AD57817005D48B9 /* poly.mm in Sources */,
+				2FE1DDA41AD57817005D48B9 /* Matho.mm in Sources */,
+				2FE1DD951AD57817005D48B9 /* factor.mm in Sources */,
+				2FE1DD8B1AD57817005D48B9 /* am.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +409,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -325,6 +466,7 @@
 				INFOPLIST_FILE = Mathomatic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -394,6 +536,7 @@
 				2FE1DD691AD577D3005D48B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FE1DD6A1AD577D3005D48B9 /* Build configuration list for PBXNativeTarget "MathomaticTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +545,7 @@
 				2FE1DD6C1AD577D3005D48B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
