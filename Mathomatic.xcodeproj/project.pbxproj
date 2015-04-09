@@ -264,7 +264,7 @@
 		2FE1DD481AD577D2005D48B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Solinst Canada";
 				TargetAttributes = {
 					2FE1DD501AD577D2005D48B9 = {
