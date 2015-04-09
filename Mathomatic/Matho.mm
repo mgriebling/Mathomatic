@@ -67,7 +67,11 @@
 	rv = process(minput);
 	if (rv) {
 		if (outputp) {
-			*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+			if (!result_str) {
+				*outputp = @"";
+			} else {
+				*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+			}
 		} else {
 			if (result_str) {
 				free(result_str);
@@ -125,7 +129,11 @@
 #endif
 	if (rv) {
 		if (outputp) {
-			*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+			if (!result_str) {
+				*outputp = @"";
+			} else {
+				*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+			}
 		} else {
 			if (result_str) {
 				free(result_str);
