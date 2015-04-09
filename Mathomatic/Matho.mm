@@ -53,7 +53,7 @@
 		}
 		if (outputp) {
 			if (error_str) {
-				*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+				*outputp = [NSString stringWithCString:error_str encoding:NSStringEncodingConversionAllowLossy];
 			} else {
 				*outputp = @"Processing was interrupted.";
 			}
@@ -77,7 +77,7 @@
 	} else {
 		if (outputp) {
 			if (error_str) {
-				*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+				*outputp = [NSString stringWithCString:error_str encoding:NSStringEncodingConversionAllowLossy];
 			} else {
 				*outputp = @"Unknown error.";
 			}
@@ -135,7 +135,7 @@
 	} else {
 		if (outputp) {
 			if (error_str) {
-				*outputp = [NSString stringWithCString:result_str encoding:NSStringEncodingConversionAllowLossy];
+				*outputp = [NSString stringWithCString:error_str encoding:NSStringEncodingConversionAllowLossy];
 			} else {
 				*outputp = @"Unknown error.";
 			}
